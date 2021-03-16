@@ -1,0 +1,226 @@
+/* default css */
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.fixed-width{
+    width: 1020px;
+    margin: auto;
+}
+.clear-fixed::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+img{
+    max-width: 100%;
+}
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* header css */
+
+.header{
+    background-color: rgba(0, 96, 206, 0.562);
+}
+.header-left{
+    float: left;
+    width: 30%;
+}
+.header-left img{
+    width: 160px;
+    height: auto;
+}
+.header-right{
+    float: right;
+    width: 70%;
+
+}
+.header-right ul{
+    text-align: right;
+}
+.header-right ul li{
+    display: inline-block;
+    margin: -2px;
+}
+.header-right ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0px 30px;
+    border-right: 1px solid #ffffff;
+    line-height: 60px;
+    transition: .4s;
+}
+.header-right ul li a:hover{
+    background-color: rgb(0, 119, 255);
+
+}
+/* banner css */
+.banner{
+    background: url(./image/10_Tips_on_How_To_Kick-Start_Your_Digital_Marketing_Career.jpg);
+    padding: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.banner-caption{}
+.banner-caption h1{
+    background-color: rgb(190, 190, 47);
+    color: #fffff;
+    padding: 0px 20px;
+    display: inline-block;
+    border-radius:5px;
+    
+}
+.banner-caption h2{ 
+    background-color: #ffffff;
+    padding: 10px 30px;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* survice css */
+
+.survices{
+    
+}
+.survice-item{
+    float: left;
+    width: 31.3%;
+    border: 1px solid #dddd;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 50px;
+    
+}
+.survice-item span{
+    display: block;
+    width: 60px;
+    height: 60px ;
+    background-color: blue;
+    color: white;
+    font-size: 40px;
+    margin: auto;
+    line-height: 60px;
+    border-radius: 20px 0px 20px 0px;
+
+}
+.survice-item h3{
+    margin: 20px 0;
+    font-size: 30px;
+}
+/* about css */
+.about-us{
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.about-us h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.about-us p{
+   max-width: 700px;
+    margin: auto;
+    font-size: 17px;
+}
+
+
+ /* blog content css  */
+
+.blog-content{
+    margin: 60px 0px;
+    
+}
+
+
+.blog-left-content{
+    float: left;
+    width: 70%;
+   
+   
+}
+.blog-right-notification{
+    float: right;
+    width: 25%;
+    
+
+}
+.blog-item img{
+    float: left;
+    width: 160px;
+    height: auto;
+   margin-right: 15px;
+}
+.blog-item{
+    margin-bottom: 30px;
+}
+.blog-right-notification{
+
+}
+.blog-right-notification h2{
+     font-size: 35px;
+     border-bottom: 1px solid #ddd;
+     margin-bottom: 10px;
+     padding-bottom: 6px;
+}
+.blog-right-notification ul{
+    list-style: none;
+}
+.blog-right-notification ul li{
+    border: 1px solid #ddd;
+    background-color: aliceblue;
+    font-size: 19px;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+
+}
+
+
+/* footer css */
+
+.footer{
+    background-color: rgb(75, 69, 69);
+   padding: 15px 0px;
+}
+.footer-left{
+    float: left;
+    width: 65%;
+}
+.footer-left p {
+    color: #ffffff;
+    font-size: 15px;
+}
+.footer-right{
+    float: right;
+    width: 35%;
+    
+}
+.socil-menu{
+    text-align: right;
+}
+.socil-menu li{
+    display: inline-block;
+}
+.socil-menu li a{
+    color: #dddd;
+    font-size: 21px;
+    margin-left: 10px;
+}
+.socil-menu li a:hover{
+
+}
